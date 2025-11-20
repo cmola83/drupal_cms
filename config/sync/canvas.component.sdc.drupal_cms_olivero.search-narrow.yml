@@ -1,0 +1,19 @@
+uuid: fe35ce04-8cef-42c4-868e-e0c4ffc6f416
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupal_cms_olivero
+active_version: 8fe3be948e0194e1
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'drupal_cms_olivero:search-narrow'
+id: sdc.drupal_cms_olivero.search-narrow
+provider: drupal_cms_olivero
+source: sdc
+source_local_id: 'drupal_cms_olivero:search-narrow'
+category: Other

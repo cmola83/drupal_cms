@@ -1,0 +1,22 @@
+uuid: ba042aef-6cbf-46d6-9005-c0f47bff7c39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.news
+id: node.news.field_image
+field_name: field_image
+entity_type: node
+bundle: news
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: eca
+  handler_settings:
+    field_name: field_image
+field_type: entity_reference

@@ -1,0 +1,100 @@
+uuid: 43b0712c-4c6c-4448-b3cf-90fcaffcd8f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.content_format
+  module:
+    - ckeditor5
+_core:
+  default_config_hash: qwkf8fM0BRjtexKpH3GhUROBbX7wsKZLW4i31gbA1Ss
+format: content_format
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - bold
+      - italic
+      - blockQuote
+      - link
+      - bulletedList
+      - numberedList
+      - indent
+      - outdent
+      - alignment
+      - insertTable
+      - drupalMedia
+      - undo
+      - redo
+      - removeFormat
+      - aickeditor
+      - sourceEditing
+  plugins:
+    ai_ckeditor_ai:
+      dialog:
+        autoresize: 'min-width: 600px'
+        height: '750'
+        width: '900'
+        dialog_class: ai-ckeditor-modal
+      plugins:
+        ai_agents_ckeditor:
+          agents: {  }
+          enabled: true
+        ai_ckeditor_completion:
+          enabled: true
+          provider: openai__gpt-4.1
+        ai_ckeditor_help:
+          enabled: false
+        ai_ckeditor_modify_prompt:
+          enabled: true
+          provider: openai__gpt-4.1
+        ai_ckeditor_reformat_html:
+          enabled: true
+          provider: openai__gpt-4.1
+        ai_ckeditor_spellfix:
+          enabled: true
+          provider: gemini__models/gemini-2.5-pro
+        ai_ckeditor_summarize:
+          enabled: true
+          provider: openai__gpt-4.1
+        ai_ckeditor_tone:
+          autocreate: false
+          provider: gemini__models/gemini-2.5-pro
+          tone_vocabulary: tags
+          use_description: 0
+          enabled: true
+        ai_ckeditor_translate:
+          autocreate: false
+          provider: openai__gpt-4.1
+          translate_vocabulary: tags
+          use_description: false
+          language_source: tax
+          enabled: false
+    ckeditor5_alignment:
+      enabled_alignments:
+        - center
+        - justify
+        - left
+        - right
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_list:
+      properties:
+        reversed: true
+        startIndex: true
+      multiBlock: true
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+    linkit_extension:
+      linkit_enabled: true
+      linkit_profile: default
+    media_media:
+      allow_view_mode_override: true
+image_upload:
+  status: false

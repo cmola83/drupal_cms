@@ -18,6 +18,7 @@
     "require": {
         "composer/composer": "^2.8",
         "composer/installers": "^2.3",
+        "drupal/ai_seo": "^1.0",
         "drupal/canvas": "1.x-dev@dev",
         "drupal/core-composer-scaffold": "^11.2.4",
         "drupal/core-project-message": "^11.2.4",
@@ -37,6 +38,8 @@
         "drupal/drupal_cms_project": "^1.2",
         "drupal/drupal_cms_seo_tools": "^1.2",
         "drupal/drupal_cms_starter": "^1.2",
+        "drupal/gemini_provider": "^1.0@beta",
+        "drupal/metatag_ai": "^1.0",
         "drupal/recipe_installer_kit": "^1-alpha6@alpha",
         "drupal/webform": "@beta"
     },

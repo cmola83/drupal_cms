@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+langcode: en
+uuid: 5b695869-3add-457e-9348-43300f9bedf8
+name: 'My Drupal CMS site'
+mail: cmolaser@nttdata.com
+slogan: ''
+page:
+  403: /user/login
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

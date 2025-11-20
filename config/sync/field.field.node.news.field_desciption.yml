@@ -1,0 +1,24 @@
+uuid: ebcd568c-4d93-455e-a65a-0764a0e9fd9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_desciption
+    - filter.format.content_format
+    - node.type.news
+  module:
+    - text
+id: node.news.field_desciption
+field_name: field_desciption
+entity_type: node
+bundle: news
+label: Desciption
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - content_format
+field_type: text_long

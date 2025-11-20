@@ -1,0 +1,19 @@
+uuid: 7bebb2bd-1b5d-425d-b034-95dadf371ce1
+langcode: en
+status: true
+dependencies: {  }
+name: Other
+configEntityTypeId: component
+weight: 0
+items:
+  - sdc.drupal_cms_olivero.card
+  - sdc.drupal_cms_olivero.card-grid
+  - sdc.drupal_cms_olivero.feature
+  - sdc.drupal_cms_olivero.heading
+  - sdc.drupal_cms_olivero.hero
+  - sdc.drupal_cms_olivero.paragraph
+  - sdc.drupal_cms_olivero.search-narrow
+  - sdc.drupal_cms_olivero.search-wide
+  - sdc.drupal_cms_olivero.testimonial
+  - sdc.navigation.title
+  - sdc.olivero.teaser

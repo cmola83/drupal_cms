@@ -1,0 +1,26 @@
+uuid: 2c905a99-3939-435e-9d7a-605290e31b5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.news.field_desciption
+    - field.field.node.news.field_image
+    - field.field.node.news.field_link
+    - node.type.news
+  module:
+    - user
+id: node.news.card
+targetEntityType: node
+bundle: news
+mode: card
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_desciption: true
+  field_image: true
+  field_link: true

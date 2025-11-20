@@ -1,0 +1,28 @@
+uuid: 08e7394f-80b7-486a-8e04-7b930835319a
+langcode: en
+status: true
+dependencies:
+  module:
+    - project_browser
+active_version: 22d645c71f04f1e5
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'project_browser_block:recipes'
+        label: Recipes
+        label_display: '0'
+        provider: project_browser
+        paginate: true
+        page_sizes: '12, 24, 36, 48'
+        sort_options: null
+        default_sort: null
+        filters: null
+    fallback_metadata:
+      slot_definitions: null
+label: Recipes
+id: block.project_browser_block.recipes
+provider: project_browser
+source: block
+source_local_id: 'project_browser_block:recipes'
+category: 'Project Browser'
