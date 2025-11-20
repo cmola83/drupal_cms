@@ -12,8 +12,8 @@
     attach: function (context) {
       $(once('bef-links-use-ajax', '.bef-links.bef-links-use-ajax', context)).each(function () {
         let $links = $(this);
-        let links_name = $(this).attr('name');
-        let links_multiple = $(this).attr('multiple');
+        let links_name = $(this).data('name');
+        let links_multiple = $(this).data('multiple');
         let $form = $(this).closest('form');
         let $filters = $form.find('input[name^="' + links_name + '"]');
 
