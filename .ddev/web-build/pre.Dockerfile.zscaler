@@ -1,0 +1,3 @@
+# Install zscaler root certificate
+ADD etc/ssl/certs/Zscaler_Root_CA.pem /usr/local/share/ca-certificates/Zscaler_Root_CA.crt
+RUN /usr/sbin/update-ca-certificates
