@@ -1,0 +1,27 @@
+uuid: ccd5e485-b398-40b2-be66-1a4cbb2f1c24
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_agenda
+    - node.type.events
+  module:
+    - file
+id: node.events.field_agenda
+field_name: field_agenda
+entity_type: node
+bundle: events
+label: Agenda
+description: null
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+field_type: file

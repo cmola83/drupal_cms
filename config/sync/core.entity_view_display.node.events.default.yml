@@ -1,0 +1,48 @@
+uuid: 40750b37-3608-495f-920a-eeaa4d80f9fa
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.events.field_agenda
+    - field.field.node.events.field_descripcion
+    - field.field.node.events.field_image
+    - node.type.events
+  module:
+    - file
+    - text
+    - user
+id: node.events.default
+targetEntityType: node
+bundle: events
+mode: default
+content:
+  field_agenda:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 50
+    region: content
+  field_descripcion:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 50
+    region: content
+  field_image:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 50
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

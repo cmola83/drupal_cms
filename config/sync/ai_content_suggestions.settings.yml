@@ -6,5 +6,5 @@ plugins:
   readability: gemini__models/gemini-2.5-pro
   summarise: gemini__models/gemini-2.5-pro
   taxonomy_suggest: gemini__models/gemini-2.5-pro
-  title_suggest: gemini__models/gemini-2.0-flash
+  title_suggest: gemini__models/gemini-2.5-pro
   tone: gemini__models/gemini-2.5-pro

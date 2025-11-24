@@ -6,9 +6,11 @@ dependencies:
     - field.field.node.news.field_desciption
     - field.field.node.news.field_image
     - field.field.node.news.field_link
+    - field.field.node.news.field_metatag
     - node.type.news
   module:
     - link
+    - metatag
     - text
     - user
 id: node.news.default
@@ -44,9 +46,17 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  langcode: true

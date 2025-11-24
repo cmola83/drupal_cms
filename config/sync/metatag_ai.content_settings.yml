@@ -1,0 +1,5 @@
+metatag_ai:
+  metadata_content_types:
+    news: news
+    page: 0
+  metadata_field_id: field_metatag

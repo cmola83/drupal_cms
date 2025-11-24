@@ -1,0 +1,11 @@
+uuid: 322e2693-54ed-4ebe-85f1-354004748a29
+langcode: es
+status: true
+dependencies: {  }
+name: Events
+type: events
+description: 'Content type for creating event entries.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

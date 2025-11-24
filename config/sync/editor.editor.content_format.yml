@@ -29,6 +29,7 @@ settings:
       - redo
       - removeFormat
       - aickeditor
+      - ai_balloon_menu
       - sourceEditing
   plugins:
     ai_ckeditor_ai:
@@ -61,16 +62,16 @@ settings:
         ai_ckeditor_tone:
           autocreate: false
           provider: gemini__models/gemini-2.5-pro
-          tone_vocabulary: tags
-          use_description: 0
+          tone_vocabulary: target_group
+          use_description: 1
           enabled: true
         ai_ckeditor_translate:
           autocreate: false
-          provider: openai__gpt-4.1
-          translate_vocabulary: tags
-          use_description: false
+          provider: openai__gpt-4o-mini
+          translate_vocabulary: langiage_ia_translation
+          use_description: true
           language_source: tax
-          enabled: false
+          enabled: true
     ckeditor5_alignment:
       enabled_alignments:
         - center
